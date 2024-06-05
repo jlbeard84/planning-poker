@@ -1,0 +1,43 @@
+div.poker-card-container {
+    display:flex;
+
+    div.poker-card {
+       border:1px solid white;
+       border-radius: .5em;
+       min-width: 6em;
+       max-width: 6em;
+       min-height: 10em;
+       max-height: 10em; 
+       display: flex;
+       flex-direction: column;
+        margin:.5em;
+
+        span.poker-number {
+            border: 1px solid white;
+            border-radius: 50%;
+            display: flex;
+            font-size: 1.4em;
+            font-weight:bolder;
+            margin: 0;
+            padding: 0;
+            width: 1.6em;
+            height: 1.6em;
+            align-items: center;
+            text-align: center;
+            justify-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+
+        span.poker-number-top {
+            flex-grow: 1;
+            align-self: flex-end;
+            justify-self: end;
+        }
+
+        span.poker-number-bottom {
+            flex-grow: 1;
+            align-content: end;
+        }
+    }
+}
