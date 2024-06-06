@@ -1,19 +1,29 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import PokerCard from './components/PokerCard.vue'
+
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <PokerCard num="1"></PokerCard>
+      <PokerCard num="2"></PokerCard>
+      <PokerCard num="3"></PokerCard>
+      <PokerCard num="5"></PokerCard>
+      <PokerCard num="8"></PokerCard>
+      <PokerCard num="13"></PokerCard>
+      <PokerCard num="21"></PokerCard>
+      <PokerCard num="?"></PokerCard>
 
+      <!--
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+      -->
     </div>
   </header>
 
